@@ -42,7 +42,7 @@ section#login{
 
 #imagem{
     display: block;
-    background: var(--cor3) url(/imagens/projetologin.jpg) no-repeat;
+    background: var(--cor3) url(imagens/projetologin.jpg) no-repeat;
     height: 200px;
     background-size: cover;
     background-position: center;
