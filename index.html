@@ -6,6 +6,7 @@
     <title>Login</title>
     <link rel="stylesheet" href="style.css" >
     <link rel="stylesheet" href="medias.css" >
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     
 </head>
 <body>
@@ -14,9 +15,25 @@
             <div id="imagem">
             </div>
             <div id="formulario">
-                <h1>Loginnnn</h1>
+                <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar a sua conta e poder fazer as configurações no seu ambiente.</p>
                 <form action="login.phpteste" method="post">
+                    <div class="dados">
+                        <span class="material-symbols-outlined">mail</span>
+                        <input  type="email" name="email" id="iem" required placeholder="Digite seu email">
+                        <label for="iem">Email</label>
+                    </div>
+                    <div class="dados">
+                        <span class="material-symbols-outlined">key</span>
+                        <input type="password" name="Senha" id="isen" required placeholder="Digite a sua senha" minlength="8" maxlength="15">
+                        <label for="isen">Senha</label>
+                    </div>
+                    <div id="botao">
+                        <input type="submit" value="Entrar">
+                    </div>
+                    <div id="esqueci">
+                        <a href="/">Esqueci minha senha</a>
+                    </div>
                 </form>
             </div>
         </section>
